@@ -35,3 +35,8 @@ tea_varieties_copy = tea_varieties.copy() #using this copy method both are given
 tea_varieties[0] = "noon chai" #this will not be reflected in copy variable only in this variable its reflected
 print("tea_varieties" ,tea_varieties)
 print("tea_varieties_copy",tea_varieties_copy)
+
+#Doing list comprehension
+square_num =[x+1 for x in range(10)]
+print(square_num)
+
